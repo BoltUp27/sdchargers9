@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4E2D8; /* Sandy beige background */
+    color: #002244; /* Chargers blue */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Hero Banner Styling */
+.hero-banner {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 34, 68, 0.8), rgba(0, 34, 68, 0.8)), url('your-image-path.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+}
+
+.hero-banner h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero-banner p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    font-size: 1.2em;
+    background-color: #3B7A57; /* Oceanic green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #2a5a3d;
+}
+
+/* Welcome Section */
+#welcome-home {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#welcome-home h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #002244;
+    margin-bottom: 20px;
+}
+
+/* Tailgate Section */
+#tailgate-central {
+    padding: 50px;
+    background-color: #3B7A57; /* Oceanic green */
+    color: white;
+}
+
+#tailgate-central h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Community Section */
+#community-connection {
+    padding: 50px;
+    background-color: #F4E2D8; /* Sandy beige */
+}
+
+#community-connection h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #002244;
+}
+
+/* Schedule Section */
+#schedule-tickets {
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#schedule-tickets h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #002244;
+}
